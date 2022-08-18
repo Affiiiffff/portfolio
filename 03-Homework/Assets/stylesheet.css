@@ -1,0 +1,169 @@
+:root {
+  --y-in-mn-blue: #355070ff;
+  --chinese-violet: #6d597aff;
+  --cinnamon-satin: #b56576ff;
+  --candy-pink: #e56b6fff;
+  --tumbleweed: #eaac8bff;
+}
+
+html,
+body {
+  min-height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 2px;
+  background-color: var(--y-in-mn-blue);
+  line-height: 10px;
+  border: 5px solid black;
+}
+.portfolio {
+  padding-right: 300px;
+
+  color: gold;
+  font-size: 30px;
+}
+.nav-links {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+  margin-top: 25px;
+}
+
+.nav-links:hover {
+  color: gray;
+}
+.about-me-section {
+  display: flex;
+  border: 5px solid black;
+  margin-top: 20px;
+  background-color: var(--y-in-mn-blue);
+}
+
+.aboutmecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  margin-top: 15px;
+  height: 250px;
+  width: 250px;
+  margin-left: 15px;
+}
+
+.about-me-paragraph {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  background-color: var(--y-in-mn-blue);
+  text-align: left;
+}
+
+.first-project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--y-in-mn-blue);
+  margin-top: 15px;
+  border: 5px solid black;
+}
+
+.first-project-image {
+  height: 250px;
+  width: 250px;
+  margin-top: 10px;
+}
+
+.first-project-paragraph {
+  margin-left: 15px;
+  color: white;
+  text-align: left;
+  width: 600px;
+  font-size: 20px;
+}
+
+.other-projects-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  border: 5px solid black;
+  background-color: var(--y-in-mn-blue);
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.otherprojectsimg {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coming-soon-img {
+  width: 175px;
+  margin-top: 10px;
+}
+
+.projectone {
+  font-size: 20px;
+  font-weight: 30px;
+  padding-right: 40px;
+  color: aliceblue;
+}
+
+.contactme-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 15px;
+  background-color: var(--y-in-mn-blue);
+  border: 5px solid black;
+}
+
+.github-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--y-in-mn-blue);
+  text-align: center;
+  color: white;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--y-in-mn-blue);
+  color: white;
+}
+
+.phone-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--y-in-mn-blue);
+  text-align: center;
+  color: white;
+}
+
+.emailtext {
+  font-size: 40px;
+  color: gold;
+}
+
+@media (max-width: 600px) {
+  .other-projects-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
